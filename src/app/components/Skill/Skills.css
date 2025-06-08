@@ -26,28 +26,3 @@
 
 
 
-
-
-/* 
-.skills-section {
-  background-color: white;
-  color: black;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-body.dark .skills-section {
-  background-color: #121212;
-  color: #e0e0e0;
-}
-.toggle-btn {
-  background-color: #111;
-  color: white;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-body.dark .toggle-btn {
-  background-color: white;
-  color: black;
-} */

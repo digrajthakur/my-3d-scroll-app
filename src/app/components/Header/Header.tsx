@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import './Header.css'; // Import the custom CSS file
+import './Header.css';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +13,7 @@ export default function Header() {
     <header className="header">
       <div className="header-container">
         {/* Logo */}
-        <div className="logo"><a href="#">Deepanshu</a></div>
+        <div className="logo"><a href="/">Deepanshu</a></div>
 
         {/* Hamburger Icon */}
         <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>

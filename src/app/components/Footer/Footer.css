@@ -1,8 +1,8 @@
 .footer {
   background-color: #111827;
-  /* dark background */
+
   color: #f3f4f6;
-  /* light text */
+  
   padding: 2rem 1rem;
   text-align: center;
   position: relative;
@@ -38,12 +38,12 @@
 
 .social-icons a:hover {
   color: #3b82f6;
-  /* Tailwind blue-500 */
+
 }
 
 /* Scroll to Top Button */
 .scroll-top-btn {
-  /* position: fixed; */
+  
   bottom: 24px;
   right: 24px;
   background-color: #1f2937;
