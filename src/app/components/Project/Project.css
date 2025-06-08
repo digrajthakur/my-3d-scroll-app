@@ -1,0 +1,85 @@
+#projects {
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    padding: 20px;
+    width: 100%;
+}
+
+#projects .project-cards {
+    background: #222;
+    color: #fff;
+    padding: 25px;
+}
+
+
+#projects.dark {
+    background-color: #18181b;
+    color: #e4e4e7;
+    padding: 20px;
+    width: 100%;
+}
+
+#projects.dark .project-cards {
+    background: #e2e2e2;
+    color: #000;
+    padding: 25px;
+}
+
+.project-card {
+    padding: 20px;
+}
+
+.filter-btn button {
+    margin: 10px 20px;
+    padding: 10px 25px;
+    background: #007bff;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.filter-btn button:hover {
+    background: #2c4a58;
+}
+
+
+.tech-skill .tech-badge {
+    padding-right: 20px;
+    padding-bottom: 6px;
+    background: #99c6eb;
+    margin: 0 10px;
+    text-align: center;
+    padding-left: 15px;
+    margin-left: 0;
+    padding-top: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.tech-link .flex {
+    padding-right: 24px;
+    font-size: 16px;
+    color: #00547e;
+}
+
+#projects .tech-skill .tech-badge {
+color: #000;
+}
+
+
+#projects .tech-link .flex {
+    color: #fff;
+}
+
+/* #projects.dark .tech-skill .tech-badge {
+color: #fff;
+} */
+
+
+#projects.dark .tech-link .flex {
+    color: #00547e;
+}

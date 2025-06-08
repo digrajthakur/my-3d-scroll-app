@@ -1,0 +1,148 @@
+
+a {
+    text-decoration: none;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.header-container {
+   
+    animation: slideInLeft 0.8s ease-in-out;
+}
+
+ .header {
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+} 
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00aaff;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.mobile-menu a {
+    padding: 15px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mobile-menu a span {
+    font-size: 15px !important;
+}
+
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav-links span {
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav-links span:hover {
+    color: #00aaff;
+}
+
+.contact-btn {
+    background: #007bff;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    border-radius: 30px;
+    font-size: 13px;
+}
+
+.contact-btn:hover {
+    background: #2c4a58;
+    /* border: 1px solid #fff; */
+}
+
+/* Mobile menu */
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    background: black;
+    padding: 1rem;
+    animation: slideDown 0.3s ease forwards;
+}
+
+.mobile-menu span {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .mobile-menu.show {
+        display: flex;
+    }
+    .mobile-menu.show .contact-btn{
+        display: none;
+    }
+}

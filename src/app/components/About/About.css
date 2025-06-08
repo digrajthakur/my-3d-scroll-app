@@ -1,0 +1,43 @@
+.about-image {
+    width: 45%;
+}
+
+.about-image img {
+    width: 50% !important;
+    border-radius: 150px;
+}
+
+.about-content {
+    width: 50%;
+}
+
+.hero-banner {
+    padding-bottom: 0 !important;
+}
+ #about {
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+
+@media (max-width:768px) {
+    .about-image {
+        width: 100%;
+    }
+
+    .about-content {
+        width: 90%;
+        text-align: center;
+    }
+
+    #about {
+        flex-direction: column;
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .about-image img {
+        border-radius: 50%;
+    }
+
+
+}

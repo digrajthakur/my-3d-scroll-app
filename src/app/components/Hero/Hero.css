@@ -1,0 +1,25 @@
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #00aaff;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+.min-h-screen {
+    min-height: 80vh;
+}
+
+.button:hover {
+    background: #2c4a58;
+}
+
+/* @media (max-width:768px){
+.hero-banner{
+    padding-top: 180px;
+}
+} */

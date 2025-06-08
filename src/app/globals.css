@@ -1,16 +1,20 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import "tailwindcss"; */
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
-@theme inline {
+/* @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
+} */
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -20,7 +24,167 @@
 }
 
 body {
-  background: var(--background);
+  margin: 0;
+}
+
+/* body {
+  background: floralwhite;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+  box-sizing: border-box;
+} */
+/* 
+section{
+  max-width: none!important;
+} */
+
+/* section {
+    max-width: fit-content !important;
+} */
+
+/* html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+} */
+
+/* 
+
+
+img, div {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+} */
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* width: 100%; */
+  /* max-width: 100%; */
+  /* overflow-x: hidden; */
+  box-sizing: border-box;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+  section {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: 99% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    position: relative;
+  }
+
+  .w-full {
+    width: 99%;
+  }
+
+  .dark-mode {
+    padding: 30px 0 !important;
+    width: 100% !important;
+  }
+
+  .dark-mode button {
+    margin-right: 20px;
+  }
+
+  .min-h-screen {
+    min-height: 55vh !important;
+  }
+}
+
+@media (max-width:768px) {
+  .header-container {
+    padding: 1rem 24px !important;
+  }
+
+  .header {
+    position: static;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .hero-banner {
+    width: 90% !important;
+  }
+
+  section {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: 99% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    /* position: relative; */
+  }
+
+  .about-image {
+    width: 100%;
+  }
+
+  .dark-mode button {
+    margin-right: 20px;
+  }
+
+  .dark-mode {
+    padding: 30px 0 !important;
+    width: 100% !important;
+  }
+
+  /* .dark-mode {
+    padding: 30px 0;
+    width: 100%;
+  } */
+
+  .dark-mode .skill-card {
+    padding: 40px 12px !important;
+  }
+
+  .skill-card {
+    padding: 1.5rem;
+    width: 86% !important;
+  }
+
+  #projects.dark {
+    padding: 0px !important;
+    width: 100% !important;
+  }
+
+  .project-card {
+    padding: 20px;
+  }
+
+  .contact-split {
+    padding: 5px 0px !important;
+  }
+
+  .contact-container {
+    max-width: 100%;
+    gap: 0px;
+  }
+
+}
+
+@media (max-width:340px) {
+  .main-box {
+    padding: 0 !important;
+    width: 87%;
+  }
 }
