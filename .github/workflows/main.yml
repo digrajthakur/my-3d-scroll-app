@@ -1,0 +1,32 @@
+name: Deploy Next.js App
+
+on:
+  push:
+    branches:
+      - master # or 'main', depending on your default branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇️ Checkout code
+        uses: actions/checkout@v3
+
+      - name: 🟦 Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18 # or whatever version you're using
+
+      - name: 📦 Install dependencies
+        run: npm install
+
+      - name: 🔨 Build Next.js app
+        run: npm run build
+
+      - name: ✅ Run tests (optional)
+        run: npm run test
+        continue-on-error: true # Avoid failing build if tests fail (optional)
+
+      - name: 🚀 Deploy (you can replace this with your deployment logic)
+        run: echo "Deploy step goes here"
