@@ -17,8 +17,8 @@
 }
 
 .contact-image {
-
-  min-width: 300px;
+  width:100%;
+  /*min-width: 300px;*/
   background: #e0f2fe;
   display: flex;
   align-items: center;
