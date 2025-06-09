@@ -17,7 +17,7 @@ type Project = {
 
 const projects: Project[] = [
     {
-        title: 'WordPress Corporate Site',
+        title: 'Mercari India',
         description: 'Corporate site built with WordPress, customized themes, and plugins.',
         image: '/mercari-india.png',
         live: 'https://about.in.mercari.com/',
@@ -46,7 +46,7 @@ const projects: Project[] = [
         tech: ['WordPress', 'PHP'],
     },
     {
-        title: 'Portfolio Website',
+        title: 'College Website',
         description:
             'A deepanshu college built with Frontend Technology and Swiper showcasing skills and experience.',
         image: '/deepanshucollege.webp',
