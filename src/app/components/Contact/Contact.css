@@ -32,10 +32,10 @@
 }
 
 .contact-form-wrapper {
-  
-  padding: 40px 60px;
+    padding: 40px 60px;
+    margin: auto;
+    width: 100%;
 }
-
 .contact-form-wrapper h2 {
   font-size: 2rem;
   margin-bottom: 10px;
