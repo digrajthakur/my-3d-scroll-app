@@ -45,7 +45,7 @@ export default function Hero() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.7, delay: 0.8 }}
         >
-          <Link href="#about">
+          <Link href="#contact">
             <button className="button mt-[30px] bg-blue-600 hover:bg-blue-700 px-5 py-2 sm:px-6 sm:py-3 rounded-lg text-sm sm:text-base font-semibold transition-all duration-300 shadow-lg">
              Let’s Build Together
             </button>
