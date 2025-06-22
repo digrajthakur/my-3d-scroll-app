@@ -94,4 +94,10 @@
 /*   .contact-form-wrapper {
     padding: 30px 20px;
   } */
+  .contact-form-wrapper {
+    width: fit-content;
+}
+  .contact-form button {
+    width: 110%;
+}
 }
