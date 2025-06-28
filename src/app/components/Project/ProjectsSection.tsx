@@ -36,6 +36,16 @@ const projects: Project[] = [
         tech: ['Shopify', 'Liquid', 'CSS'],
     },
     {
+        title: 'Sopecare Website',
+        description:
+            'Developed a clean, modern Shopify website for Sopecare, a Romanian body care brand, featuring dynamic product listings for hand and body wash, responsive design, and a sleek, minimal UI.',
+        image: '/sopecare-com.png',
+        live: 'https://sopecare.com/',
+        github: 'https://sopecare.com/',
+        categories: ['Shopify'],
+        tech: ['Shopify', 'JS', 'jQuery',' Liquid'],
+    },
+    {
         title: 'Assago Website',
         description:
             'A full-stack wordpress website using CMS, Frontend Technology, and PHP with authentication.',
