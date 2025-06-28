@@ -26,16 +26,6 @@ const projects: Project[] = [
         tech: ['WordPress', 'PHP', 'DOCKER', 'GCP', 'Frontend Technology', 'GitHub'],
     },
     {
-        title: 'E-commerce Store',
-        description:
-            'A responsive Shopify-powered Home Decor with customized theme and payment integration.',
-        image: '/banner.webp',
-        live: 'https://casaamber.in/',
-        github: 'https://casaamber.in/',
-        categories: ['Shopify'],
-        tech: ['Shopify', 'Liquid', 'CSS'],
-    },
-    {
         title: 'Sopecare Website',
         description:
             'Developed a clean, modern Shopify website for Sopecare, a Romanian body care brand, featuring dynamic product listings for hand and body wash, responsive design, and a sleek, minimal UI.',
@@ -46,6 +36,16 @@ const projects: Project[] = [
         tech: ['Shopify', 'JS', 'jQuery',' Liquid'],
     },
     {
+        title: 'E-commerce Store',
+        description:
+            'A responsive Shopify-powered Home Decor with customized theme and payment integration.',
+        image: '/banner.webp',
+        live: 'https://casaamber.in/',
+        github: 'https://casaamber.in/',
+        categories: ['Shopify'],
+        tech: ['Shopify', 'Liquid', 'CSS'],
+    },
+    {
         title: 'Assago Website',
         description:
             'A full-stack wordpress website using CMS, Frontend Technology, and PHP with authentication.',
@@ -54,6 +54,16 @@ const projects: Project[] = [
         github: 'https://assagogroup.com/',
         categories: ['Frontend Technologies', 'WordPress'],
         tech: ['WordPress', 'PHP'],
+    },
+    {
+        title: 'Shikshapth Education Website',
+        description:
+            'Developed Shikshapath, an education-focused WordPress website with responsive design, user-friendly layout, and optimized content structure for learning resources.',
+        image: '/shikshapath.png',
+        live: 'https://shikshapth.co/landing/',
+        github: 'https://shikshapth.co/landing/',
+        categories: ['WordPress'],
+        tech: ['WordPress'],
     },
     {
         title: 'College Website',
