@@ -38,7 +38,7 @@ const projects: Project[] = [
     {
         title: 'E-commerce Store',
         description:
-            'A responsive Shopify-powered Home Decor with customized theme and payment integration.',
+            'A responsive Shopify-Powered Home Decor with customized theme and payment integration.',
         image: '/banner.webp',
         live: 'https://casaamber.in/',
         github: 'https://casaamber.in/',
