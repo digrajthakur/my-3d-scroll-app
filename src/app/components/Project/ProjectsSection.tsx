@@ -66,6 +66,16 @@ const projects: Project[] = [
         tech: ['WordPress'],
     },
     {
+        title: 'Brightsafety Barriers Website',
+        description:
+            'Bright Safety Barriers deliver high-visibility, durable solutions designed to enhance safety across industrial and public spaces.',
+        image: '/brightsafety.png',
+        live: 'https://www.brightsafetybarriers.com.au/',
+        github: 'https://www.brightsafetybarriers.com.au/',
+        categories: ['WordPress'],
+        tech: ['WordPress'],
+    },
+    {
         title: 'College Website',
         description:
             'A deepanshu college built with Frontend Technology and Swiper showcasing skills and experience.',
