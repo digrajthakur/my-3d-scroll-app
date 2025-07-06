@@ -55,7 +55,7 @@ const projects: Project[] = [
         categories: ['Frontend Technologies', 'WordPress'],
         tech: ['WordPress', 'PHP'],
     },
-      {
+    {
         title: 'Roopaks',
         description:
             'From dry fruits to blended spices – Roopak’s delivers freshness, crunch, and tradition in every pack. Order now for express delivery in Delhi NCR!',
