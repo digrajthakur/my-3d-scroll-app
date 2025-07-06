@@ -55,6 +55,16 @@ const projects: Project[] = [
         categories: ['Frontend Technologies', 'WordPress'],
         tech: ['WordPress', 'PHP'],
     },
+      {
+        title: 'Roopaks',
+        description:
+            'From dry fruits to blended spices – Roopak’s delivers freshness, crunch, and tradition in every pack. Order now for express delivery in Delhi NCR!',
+        image: '/roopaks.png',
+        live: 'https://roopaks.com/',
+        github: 'https://roopaks.com/',
+        categories: ['Shopify'],
+        tech: ['Shopify', 'Liquid'],
+    },
     {
         title: 'Shikshapth Education Website',
         description:
