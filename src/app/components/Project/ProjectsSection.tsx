@@ -86,6 +86,16 @@ const projects: Project[] = [
         tech: ['WordPress'],
     },
     {
+        title: 'Ruugl Website',
+        description:
+            'Ruggle is a demo website built for my freelance portfolio to showcase clean, responsive, and modern design using WordPress and Elementor.',
+        image: '/ruugl.png',
+        live: ' https://ruugl.com/',
+        github: ' https://ruugl.com/',
+        categories: ['WordPress'],
+        tech: ['WordPress', 'Elementor', 'Felan'],
+    },
+    {
         title: 'College Website',
         description:
             'A deepanshu college built with Frontend Technology and Swiper showcasing skills and experience.',
