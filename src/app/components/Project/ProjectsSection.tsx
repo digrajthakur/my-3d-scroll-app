@@ -96,6 +96,16 @@ const projects: Project[] = [
         tech: ['WordPress', 'Elementor', 'Felan'],
     },
     {
+        title: 'Flarewave AI Website',
+        description:
+            'I Developed the FlareWave AI website using React.js with reusable components, API calls for dynamic data handling, and responsive design.',
+        image: '/flarewaveai.png',
+        live: 'https://flarewaveai.com',
+        github: 'https://flarewaveai.com',
+        categories: ['Frontend Technologies'],
+        tech: ['React.js', 'GitHub'],
+    },
+    {
         title: 'College Website',
         description:
             'A deepanshu college built with Frontend Technology and Swiper showcasing skills and experience.',
