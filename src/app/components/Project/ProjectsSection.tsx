@@ -1,4 +1,4 @@
-'use client';
+ 'use client';
 
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
@@ -41,6 +41,7 @@ const projects: Project[] = [
             'Your Gadget Box offers the latest cameras, smart gadgets, and accessories to make life easier and smarter.',
         image: '/yourgadgetbox.png',
         live: 'https://yourgadgetbox.com/',
+        github: 'https://sopecare.com/',
         categories: ['Shopify'],
         tech: ['Shopify', 'Liquid', 'JS', 'CSS'],
     },
