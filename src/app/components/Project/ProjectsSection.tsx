@@ -35,7 +35,7 @@ const projects: Project[] = [
         categories: ['Shopify'],
         tech: ['Shopify', 'JS', 'jQuery',' Liquid'],
     },
-     {
+    {
         title: 'Your Gadget Box',
         description:
             'Your Gadget Box offers the latest cameras, smart gadgets, and accessories to make life easier and smarter.',
