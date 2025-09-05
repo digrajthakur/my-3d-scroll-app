@@ -35,6 +35,16 @@ const projects: Project[] = [
         categories: ['Shopify'],
         tech: ['Shopify', 'JS', 'jQuery',' Liquid'],
     },
+    {
+        title: 'Koalalane Website',
+        description:
+            'Developed a responsive Shopify store for KoalaLane, featuring nuts, chocolates, oils, and food items with a clean design, easy navigation, and optimized checkout.',
+        image: '/koalalane.png',
+        live: 'https://www.koalalane.com/',
+        github: 'https://www.koalalane.com/',
+        categories: ['Shopify'],
+        tech: ['Shopify', 'JS', 'Liquid', 'Swiper'],
+    },
     // {
     //     title: 'Your Gadget Box',
     //     description:
