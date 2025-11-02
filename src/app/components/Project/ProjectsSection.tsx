@@ -115,6 +115,16 @@ const projects: Project[] = [
         categories: ['WordPress'],
         tech: ['WordPress', 'Elementor', 'Felan'],
     },
+   {
+        title: 'Turfing HQ',
+        description:
+            'Turfing HQ connects your turfing business with quality leads, so you can focus on delivering great results.',
+        image: '/turfing-hq.png',
+        live: 'https://fasthost.net.au/turfinghq/',
+        github: 'https://fasthost.net.au/turfinghq/',
+        categories: ['WordPress'],
+        tech: ['WordPress', 'Elementor'],
+    },
     {
         title: 'Flarewave AI Website',
         description:
