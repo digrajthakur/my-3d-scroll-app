@@ -25,8 +25,7 @@ export default function Contact() {
             <textarea name="message" placeholder="Your Message" rows={5} required></textarea>
             <button type="submit">Send Message</button>
           </form>
-
-
+          
         </div>
       </div>
     </section>
