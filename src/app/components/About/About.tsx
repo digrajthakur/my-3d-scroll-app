@@ -47,7 +47,6 @@ export default function About() {
           Download CV
         </a>
       </motion.div>
-
     </section>
   );
 }
